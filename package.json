@@ -18,6 +18,10 @@
   "homepage": "https://github.com/ssh1sharma/covid19-app-for-ngo#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "express": "^4.17.1"
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28",
+    "morgan": "^1.10.0"
   }
 }
