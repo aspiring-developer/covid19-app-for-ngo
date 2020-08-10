@@ -13,7 +13,7 @@ connectToMongoDb();
 // Creating port for localhost and future deployment
 const PORT = process.env.PORT || 5000;
 
-//Initiali
+//Initialize middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
