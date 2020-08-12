@@ -32,5 +32,5 @@ app.use("/api/profile", require("./routes/api/profile"));
 
 // Initializing localhost server to run the app in development environment
 app.listen(PORT, () => {
-  console.log(`App is running on: http://localhost:${PORT}`);
+  console.log(`App is running on : http://localhost:${PORT}`);
 });
