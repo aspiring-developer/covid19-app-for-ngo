@@ -3,7 +3,8 @@ const router = express.Router();
 const { check, validationResult } = require("express-validator");
 const gravatar = require("gravatar");
 const bcrypt = require("bcryptjs");
-
+const config = require("config");
+const jwt = require("jsonwebtoken");
 const User = require("../../models/User");
 
 // GET api/users (for testing purpose)
@@ -47,8 +48,20 @@ router.post(
       await user.save();
 
       // res.send("Users route");
-      res.send("User Successfully Registered!");
-    } catch {
+      // res.send("User Successfully Registered!");
+      //Create a payload
+      const payload = { user: { id: user.id } }; // the user.id is similar to user._id (in mongoose no need _id)
+      // jwt.sign gets two arguments: payload and jwtSecret. The jwtSecret needs to hide in config/default.js file
+      jwt.sign(
+        payload,
+        config.get("jwtSecret"),
+        { expiresIn: 360000 },
+        (err, token) => {
+          if (err) throw err;
+          res.json({ token });
+        }
+      );
+    } catch (err) {
       console.error(err.message);
       res.status(500).send("Server error");
     }
