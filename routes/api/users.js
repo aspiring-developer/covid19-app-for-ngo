@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { check, validationResult } = require("express-validator");
 const gravatar = require("gravatar");
+const bcrypt = require("bcryptjs");
 
 const User = require("../../models/User");
 
@@ -34,8 +35,19 @@ router.post(
       if (user) {
         res.status(400).json({ errors: [{ msg: "User already exists" }] });
       }
+      // Getting user's gravatar
+      const avatar = gravatar.url(email, { s: "200", r: "pg", d: "mm" });
+      // Create a new instance of the User model
+      user = new User({ name, email, avatar, password });
+      // Encrypt the email/gravatar with bcryptjs. It get promise from bcrypt.js, so using await
+      const salt = await bcrypt.genSalt(10); // the 10 is recommended (read doc)
+      // Hash the password
+      user.password = await bcrypt.hash(password, salt);
+      // save the configured user
+      await user.save();
 
-      res.send("Users route");
+      // res.send("Users route");
+      res.send("User Successfully Registered!");
     } catch {
       console.error(err.message);
       res.status(500).send("Server error");
