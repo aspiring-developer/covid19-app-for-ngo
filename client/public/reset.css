@@ -1,0 +1,448 @@
+/* ########## GOOGLE FONTS ########## */
+
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans|Aguafina+Script|Fira+Sans:100,100i,400,400i,700,700i,900,900i|Poppins:100,100i,400,400i,700,700i,900,900i|Tulpen+One&display=swap");
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, d, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
+}
+
+.mainWrapper {
+	margin: 0 auto;
+}
+
+img {
+	max-width: 100%;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+
+/* ************************************************************* */
+
+/* ########## Font custom attributes reset ########## */
+
+h1 {
+	font-size: 1.6rem;
+}
+
+h2 {
+	font-size: 1.4rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+h4 {
+	font-size: 1rem;
+}
+
+h5 {
+	font-size: 0.9rem;
+}
+
+h6 {
+	font-size: 0.8rem;
+}
+
+p {
+	font-size: 0.85rem;
+}
+
+.form-group {
+	font-size: 0.8rem;
+}
+
+.form-control {
+	font-size: 0.8rem;
+}
+
+.btn {
+	font-size: 0.9rem;
+}
+
+.fab, .fas {
+	font-size: 1.8rem;
+}
+
+/* ################################################################ */
+
+/* Default target is <544px. So, all codes above are for smaller devices less than 544px | Other breakpoints: >544 | >768 | >992 | >1200 | >1920 | >2560   */
+
+/* ################################################################ */
+
+/* Small devices (544px to 768px) */
+
+@media (min-width: 544px) {
+	h1 {
+		font-size: 1.7rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	h3 {
+		font-size: 1.3rem;
+	}
+	h4 {
+		font-size: 1.1rem;
+	}
+	h5 {
+		font-size: 1rem;
+	}
+	h6 {
+		font-size: 0.9rem;
+	}
+	p {
+		font-size: 0.95rem;
+	}
+	.form-group {
+		font-size: 0.9rem;
+	}
+	.form-control {
+		font-size: 0.9rem;
+	}
+	.btn {
+		font-size: 1rem;
+	}
+	.fab, .fas {
+		font-size: 2rem;
+	}
+}
+
+/* Medium devices (769px to 992px) The navbar list appears at 992px */
+
+@media (min-width: 769px) {
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.7rem;
+	}
+	h3 {
+		font-size: 1.5rem;
+	}
+	h4 {
+		font-size: 1.3rem;
+	}
+	h5 {
+		font-size: 1.1rem;
+	}
+	h6 {
+		font-size: 1rem;
+	}
+	p {
+		font-size: 1rem;
+	}
+	.form-group {
+		font-size: .95rem;
+	}
+	.form-control {
+		font-size: .95rem;
+	}
+	.btn {
+		font-size: 1.1rem;
+	}
+	.navbar-toggler-icon {
+		font-size: 1.4rem;
+	}
+	.navbar-brand {
+		font-size: 1.5rem;
+	}
+	.fab, .fas {
+		font-size: 2rem;
+	}
+}
+
+/* Large devices (993px to 1200px) */
+
+@media (min-width: 993px) {
+	h1 {
+		font-size: 2.2rem;
+	}
+	h2 {
+		font-size: 1.9rem;
+	}
+	h3 {
+		font-size: 1.6rem;
+	}
+	h4 {
+		font-size: 1.4rem;
+	}
+	h5 {
+		font-size: 1.3rem;
+	}
+	h6 {
+		font-size: 1.2rem;
+	}
+	p {
+		font-size: 1rem;
+	}
+	.form-group {
+		font-size: .95rem;
+	}
+	.form-control {
+		font-size: .95rem;
+	}
+	.btn {
+		font-size: 1.1rem;
+	}
+	.navbar-toggler-icon {
+		font-size: 1.4rem;
+	}
+	.navbar-brand {
+		font-size: 1.5rem;
+	}
+	.navbar-nav {
+		font-size: 0.9rem;
+	}
+	.fab, .fas {
+		font-size: 2.2rem;
+	}
+}
+
+/* Large devices (1201px to 1440px) */
+
+@media (min-width: 1201px) {
+	h1 {
+		font-size: 2.3rem;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+	h3 {
+		font-size: 1.7rem;
+	}
+	h4 {
+		font-size: 1.4rem;
+	}
+	h5 {
+		font-size: 1.3rem;
+	}
+	h6 {
+		font-size: 1.2rem;
+	}
+	p {
+		font-size: 1rem;
+	}
+	.form-group {
+		font-size: 1rem;
+	}
+	.form-control {
+		font-size: 1rem;
+	}
+	.btn {
+		font-size: 1.1rem;
+	}
+	.navbar-toggler-icon {
+		font-size: 1.4rem;
+	}
+	.navbar-brand {
+		font-size: 1.6rem;
+	}
+	.navbar-nav {
+		font-size: 0.9rem;
+	}
+	.fab, .fas {
+		font-size: 2.2rem;
+	}
+}
+
+/* Extra large devices (1441px to 1920px) */
+
+@media (min-width: 1441px) {
+	h1 {
+		font-size: 2.4rem;
+	}
+	h2 {
+		font-size: 2..1rem;
+	}
+	h3 {
+		font-size: 1.8rem;
+	}
+	h4 {
+		font-size: 1.5rem;
+	}
+	h5 {
+		font-size: 1.4rem;
+	}
+	h6 {
+		font-size: 1.3rem;
+	}
+	p {
+		font-size: 1rem;
+	}
+	.form-group {
+		font-size: 1rem;
+	}
+	.form-control {
+		font-size: 1rem;
+	}
+	.btn {
+		font-size: 1.1rem;
+	}
+	.navbar-toggler-icon {
+		font-size: 1.4rem;
+	}
+	.navbar-brand {
+		font-size: 1.7rem;
+	}
+	.navbar-nav {
+		font-size: 0.9rem;
+	}
+	.fab, .fas {
+		font-size: 2.5rem;
+	}
+}
+
+/* Extra-Extra large devices (1921px to 2560px) */
+
+@media (min-width: 1921px) {
+	h1 {
+		font-size: 2.9rem;
+	}
+	h2 {
+		font-size: 2.5rem;
+	}
+	h3 {
+		font-size: 2.1rem;
+	}
+	h4 {
+		font-size: 1.8rem;
+	}
+	h5 {
+		font-size: 1.7rem;
+	}
+	h6 {
+		font-size: 1.5rem;
+	}
+	p {
+		font-size: 1.2rem;
+	}
+	.form-group {
+		font-size: 1.1rem;
+	}
+	.form-control {
+		font-size: 1.1rem;
+	}
+	.btn {
+		font-size: 1.2rem;
+	}
+	.navbar-toggler-icon {
+		font-size: 1.5rem;
+	}
+	.navbar-brand {
+		font-size: 2rem;
+	}
+	.navbar-nav {
+		font-size: 1.2rem;
+	}
+	.fab, .fas {
+		font-size: 2.8rem;
+	}
+}
+
+/* Extra-Extra-Extra large devices (2561px to 3200px) */
+
+@media(min-width: 2561px) {
+	h1 {
+		font-size: 3.5rem;
+	}
+	h2 {
+		font-size: 3rem;
+	}
+	h3 {
+		font-size: 2.6rem;
+	}
+	h4 {
+		font-size: 2.3rem;
+	}
+	h5 {
+		font-size: 2.2rem;
+	}
+	h6 {
+		font-size: 2rem;
+	}
+	p {
+		font-size: 1.7rem;
+	}
+	.form-group {
+		font-size: 1.6rem;
+	}
+	.form-control {
+		font-size: 1.6rem;
+	}
+	.btn {
+		font-size: 1.7rem;
+	}
+	.navbar-toggler-icon {
+		font-size: 2rem;
+	}
+	.navbar-brand {
+		font-size: 2.5rem;
+	}
+	.navbar-nav {
+		font-size: 1.7rem;
+	}
+	.fab, .fas {
+		font-size: 3.1rem;
+	}
+}
+
+/* 4x Extra large devices (3201px above) */
+
+@media(min-width: 3201px) {
+	h1 {
+		font-size: 4.2rem;
+	}
+	h2 {
+		font-size: 3.7rem;
+	}
+	h3 {
+		font-size: 3.3rem;
+	}
+	h4 {
+		font-size: 3rem;
+	}
+	h5 {
+		font-size: 2.9rem;
+	}
+	h6 {
+		font-size: 2.7rem;
+	}
+	p {
+		font-size: 2.2rem;
+	}
+	.form-group {
+		font-size: 2rem;
+	}
+	.form-control {
+		font-size: 2rem;
+	}
+	.btn {
+		font-size: 2.1rem;
+	}
+	.navbar-toggler-icon {
+		font-size: 2.4rem;
+	}
+	.navbar-brand {
+		font-size: 3rem;
+	}
+	.navbar-nav {
+		font-size: 2rem;
+	}
+	.fab, .fas {
+		font-size: 3.5rem;
+	}
+}
