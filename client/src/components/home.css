@@ -11,12 +11,24 @@
 .homeContentsWrapper {
   background-color: #ffffff;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1rem;
+  /* padding-top: 2rem; */
   width: 80%;
   border-radius: 1rem;
-  box-shadow: 4px 4px 20px #c0bebe;
+  box-shadow: 4px 4px 20px #adadad;
   border: 1px solid #e9e9e9;
 }
+
+header {
+  background-color: #e6e4e4;
+  padding: 2rem 0 1rem 0;
+  margin-bottom: 2rem;
+}
+
+/* 
+.dcoLogo {
+  display: inline-block;
+} */
 
 .homeHr {
   width: 75%;
@@ -32,8 +44,8 @@
 }
 
 .signUpBtn, .loginBtn {
-  background-color: #dcf0ef!important;
-  border: 1px solid #e6e4e4!important;
+  /* background-color: #dcf0ef!important; */
+  border: 1px solid #c8c8c8!important;
   border-radius: 8px!important;
   /* box-shadow: 2px 4px 10px #b3b1b1!important; */
   padding: .3rem 2rem!important;
@@ -44,10 +56,20 @@
   color: #fff!important;
 }
 
-.footer {
+.input-group-prepend span {
+  font-size: .9rem;
+}
+
+.input-group input::placeholder {
+  color: #aeaeae;
+  font-size: .8rem;
+}
+
+footer {
   background-color: #e6e4e4;
 }
 
-.footer p {
+footer p {
   font-size: .7rem;
+  padding-top: 1rem;
 }

@@ -42,7 +42,7 @@ const LoginForm = () => {
             <button
               type="submit"
               // onClick={handleSubmit}
-              className="btn loginBtn"
+              className="btn btn-info loginBtn"
             >
               Login
             </button>

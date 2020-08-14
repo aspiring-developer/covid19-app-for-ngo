@@ -11,7 +11,7 @@ const Home = () => {
       <div className="container-fluid mainWrapper text-center">
         <div className="row homeContentsWrapper">
           <Header />
-          <hr className="homeHr" />
+          {/* <hr className="homeHr" /> */}
           <LoginForm />
           <hr className="homeHr" />
           <SignUpForm />

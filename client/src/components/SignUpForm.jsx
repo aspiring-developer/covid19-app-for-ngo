@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./Header";
 
 const SignUpForm = () => {
   return (
@@ -70,7 +69,7 @@ const SignUpForm = () => {
             <button
               type="submit"
               // onClick={handleSubmit}
-              className="btn signUpBtn"
+              className="btn btn-info signUpBtn"
             >
               Sign Up
             </button>
