@@ -25,10 +25,13 @@ header {
   margin-bottom: 2rem;
 }
 
-/* 
-.dcoLogo {
-  display: inline-block;
-} */
+header h5 {
+  color: #942378;
+}
+
+header h4 {
+  text-transform: uppercase;
+}
 
 .homeHr {
   width: 75%;
@@ -72,4 +75,5 @@ footer {
 footer p {
   font-size: .7rem;
   padding-top: 1rem;
+  color: #942378;
 }
