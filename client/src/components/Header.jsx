@@ -5,8 +5,7 @@ const Header = () => {
     <>
       <div className="col-sm-12">
         <h4> Damauli Children Organization</h4>
-        <h2> COVID-19 Information Center </h2>
-        <hr />
+        <h3> COVID-19 Information Center </h3>
       </div>
     </>
   );

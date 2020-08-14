@@ -1,12 +1,13 @@
 import React from "react";
+import Header from "./Header";
 
 const SignUpForm = () => {
   return (
     <>
-      <div className="col-sm-12 formCol text-center">
-        <form>
+      <div className="col-sm-12 text-center">
+        <form className="signUpForm">
           <h5 className="text-center pb-1">
-            Sign up to register and create your account.
+            Sign up to register and create a new account
           </h5>
           <div className="input-group mb-3">
             <div className="input-group-prepend">
@@ -64,6 +65,15 @@ const SignUpForm = () => {
               // onChange={handleChange}
               placeholder="Re-Enter password"
             />
+          </div>
+          <div className="text-center">
+            <button
+              type="submit"
+              // onClick={handleSubmit}
+              className="btn mb-4 loginBtn"
+            >
+              Sign Up
+            </button>
           </div>
         </form>
       </div>

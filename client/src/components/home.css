@@ -1,8 +1,24 @@
-/* .mainWrapper {
+.mainWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   padding: 1rem;
   background-color: aliceblue;
-} */
+}
+
+.homeContentsWrapper {
+  background-color: #b2f1b7;
+  margin: 0 auto;
+  padding-top: 2rem;
+  width: 80%;
+}
+
+.homeHr {
+  width: 60%;
+}
+
+.signUpForm, .loginForm {
+  margin: 0 auto;
+  width: 60%;
+}
