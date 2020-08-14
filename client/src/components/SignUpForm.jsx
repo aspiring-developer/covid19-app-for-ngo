@@ -6,9 +6,9 @@ const SignUpForm = () => {
     <>
       <div className="col-sm-12 text-center">
         <form className="signUpForm">
-          <h5 className="text-center pb-1">
-            Sign up to register and create a new account
-          </h5>
+          <h6 className="text-center pb-1">
+            Sign up to register a new account
+          </h6>
           <div className="input-group mb-3">
             <div className="input-group-prepend">
               <span className="input-group-text">Name</span>
@@ -66,11 +66,11 @@ const SignUpForm = () => {
               placeholder="Re-Enter password"
             />
           </div>
-          <div className="text-center">
+          <div className="text-center buttonWrapper">
             <button
               type="submit"
               // onClick={handleSubmit}
-              className="btn mb-4 loginBtn"
+              className="btn signUpBtn"
             >
               Sign Up
             </button>

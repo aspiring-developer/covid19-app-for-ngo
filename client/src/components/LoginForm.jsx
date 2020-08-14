@@ -5,7 +5,7 @@ const LoginForm = () => {
     <>
       <div className="col-sm-12 text-center">
         <form className="loginForm">
-          <h5 className="text-center pb-1">Login to your account</h5>
+          <h6 className="text-center pb-1">Login to your account</h6>
           <div className="row">
             <div className="col-sm-6 input-group mb-3">
               <div className="input-group-prepend">
@@ -38,11 +38,11 @@ const LoginForm = () => {
               />
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-center buttonWrapper">
             <button
               type="submit"
               // onClick={handleSubmit}
-              className="btn mb-4 loginBtn"
+              className="btn loginBtn"
             >
               Login
             </button>

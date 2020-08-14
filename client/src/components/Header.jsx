@@ -4,8 +4,8 @@ const Header = () => {
   return (
     <>
       <div className="col-sm-12">
-        <h4> Damauli Children Organization</h4>
-        <h3> COVID-19 Information Center </h3>
+        <h5> Damauli Children Organization</h5>
+        <h4> COVID-19 Information Center </h4>
       </div>
     </>
   );

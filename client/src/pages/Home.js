@@ -3,6 +3,7 @@ import "../components/home.css";
 import SignUpForm from "../components/SignUpForm";
 import Header from "../components/Header";
 import LoginForm from "../components/LoginForm";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -12,7 +13,9 @@ const Home = () => {
           <Header />
           <hr className="homeHr" />
           <LoginForm />
+          <hr className="homeHr" />
           <SignUpForm />
+          <Footer />
         </div>
       </div>
     </>
