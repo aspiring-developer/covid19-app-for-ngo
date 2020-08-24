@@ -27,6 +27,7 @@ app.get("/", (req, res) => {
 // Import and use the routes
 app.use("/api/users", require("./routes/api/users"));
 app.use("/api/auth", require("./routes/api/auth"));
+
 // Initializing localhost server to run the app in development environment
 app.listen(PORT, () => {
   console.log(`App is running on : http://localhost:${PORT}`);
